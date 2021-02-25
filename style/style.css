@@ -1,25 +1,39 @@
+@font-face{
+    font-family: game;
+    src: url(../fonts/Gamer.ttf);
+}
+
 body{
     text-align: center;
 }
 
+h1{
+    font-family: game;
+    font-size: 50px;
+}
+
 .quadrado{
+    font-family: game;
     text-align: center;
     width: 50px;
     background-color: #eee;
     display: inline-block;
     padding: 40px;
-    font-size: 60px;
+    font-size: 90px;
     margin: 5px;
     cursor: pointer;
     color: #eee;
 }
 
 .jogador, .vencedor{
-    font-size: 30px;
+    font-family: game;
+    font-size: 45px;
     margin-top: 10px;
 }
 
 button{
+    font-family: game;
+    font-size: 25px;
     margin-top: 10px;
     width: 100px;
     height: 30px;
